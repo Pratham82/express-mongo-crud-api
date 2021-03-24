@@ -2,7 +2,7 @@ const User = require('../models/Users')
 
 //@POST
 //Create new user
-const createNewuser = async (req, res) => {
+const createNewUser = async (req, res) => {
   const { name, age, designation } = req.body
   const user = new User({
     name,
@@ -27,4 +27,4 @@ const createNewuser = async (req, res) => {
   }
 }
 
-module.exports = createNewuser
+module.exports = createNewUser

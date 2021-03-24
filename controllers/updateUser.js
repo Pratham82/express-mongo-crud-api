@@ -1,7 +1,7 @@
 const User = require('../models/Users')
 
 //@PUT
-//Upadte one user
+//Update one user
 const updateUser = async (req, res) => {
   const { name, age, designation } = req.body
 
