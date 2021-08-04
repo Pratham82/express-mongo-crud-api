@@ -11,5 +11,6 @@ npm i
 ## Running Application
 
 ```
-npm run start
+docker-compose up -d
 ```
+
