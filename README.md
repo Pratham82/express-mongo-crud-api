@@ -8,7 +8,7 @@ Express + MongoDB crud API
 npm i
 ```
 
-## Running Application
+## Running application via docker
 
 ```
 docker-compose up -d
